@@ -4,7 +4,7 @@
   src: local('HelveticaNeue'), url(/stylesheets/HelveticaNeue.ttf) format("truetype");
 }
 body {
-  background-color: #FBEE79;
+  background: #fbee79 url('/images/treasure_map.gif') no-repeat center top;
   font-family: HelveticaNeue, Helvetica Neue, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .container {
@@ -14,6 +14,10 @@ body {
   background-color: #EE76A6;
   -moz-border-radius: 2em;
   border-radius: 2em;
+}
+p {
+  font-size: 1.2em;
+  margin-bottom: 1em;
 }
 p img {
   border: 5px solid #FCF3B2;

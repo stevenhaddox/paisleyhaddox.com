@@ -1,0 +1,27 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>paisleyhaddox.com</title>
+ <link href="http://paisleyhaddox.com/atom.xml" rel="self"/>
+ <link href="http://paisleyhaddox.com/"/>
+ <updated>{{ site.time | date_to_xmlschema }}</updated>
+ <id>http://paisleyhaddox.com/</id>
+ <author>
+   <name>paisley haddox</name>
+   <email>paisley@paisleyhaddox.com</email>
+ </author>
+
+ {% for post in site.posts %}
+ <entry>
+   <title>{{ post.title }}</title>
+   <link href="http://paisleyhaddox.com{{ post.url }}"/>
+   <updated>{{ post.date | date_to_xmlschema }}</updated>
+   <id>http://paisleyhaddox.com{{ post.id }}</id>
+   <content type="html">{{ post.content | xml_escape }}</content>
+ </entry>
+ {% endfor %}
+ 
+</feed>

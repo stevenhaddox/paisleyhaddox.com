@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>paisleyhaddox.com</title>
+ <title>paisleyhaddox.com title</title>
  <link href="http://paisleyhaddox.com/atom.xml" rel="self"/>
  <link href="http://paisleyhaddox.com/"/>
- <updated>2010-09-20T18:15:22-04:00</updated>
+ <updated>2010-09-20T17:34:41-04:00</updated>
  <id>http://paisleyhaddox.com/</id>
  <author>
-   <name>paisley haddox</name>
-   <email>paisley@paisleyhaddox.com</email>
+   <name>paisleyhaddox.com author name</name>
+   <email>author@paisleyhaddox.com</email>
  </author>
 
  
